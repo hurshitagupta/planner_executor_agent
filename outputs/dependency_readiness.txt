@@ -1,0 +1,36 @@
+{
+  "steps": [
+    {
+      "id": "1",
+      "action": "Collect customer details",
+      "dependencies": [],
+      "status": "success"
+    },
+    {
+      "id": "2",
+      "action": "Verify customer details",
+      "dependencies": [
+        "1"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "3",
+      "action": "Prepare response",
+      "dependencies": [
+        "2"
+      ],
+      "status": "pending"
+    }
+  ],
+  "ready_before_execution": "2",
+  "first_execution": {
+    "status": "executed",
+    "step_id": "2",
+    "action": "Verify customer details"
+  },
+  "ready_after_execution": "3",
+  "blocked_steps": [],
+  "total_steps": 3,
+  "duration_ms": 0.022
+}

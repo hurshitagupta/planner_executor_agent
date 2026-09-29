@@ -1,0 +1,16 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\planner_executor_agent\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\planner_executor_agent
+configfile: pyproject.toml
+collecting ... collected 7 items
+
+tests/test_dependency_readiness.py::test_step_without_dependencies_is_ready PASSED [ 14%]
+tests/test_dependency_readiness.py::test_step_is_ready_when_dependency_succeeds PASSED [ 28%]
+tests/test_dependency_readiness.py::test_step_is_blocked_when_dependency_is_pending PASSED [ 42%]
+tests/test_dependency_readiness.py::test_step_is_blocked_when_dependency_failed PASSED [ 57%]
+tests/test_dependency_readiness.py::test_next_ready_returns_correct_step PASSED [ 71%]
+tests/test_dependency_readiness.py::test_unknown_dependency_is_rejected PASSED [ 85%]
+tests/test_dependency_readiness.py::test_no_ready_step_returns_blocked PASSED [100%]
+
+============================== 7 passed in 0.03s ==============================
