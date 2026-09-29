@@ -1,0 +1,24 @@
+{
+  "goal": "Prepare customer order summary",
+  "steps": [
+    {
+      "id": "1",
+      "action": "Collect information for: Prepare customer order summary",
+      "status": "success"
+    },
+    {
+      "id": "2",
+      "action": "Process collected information",
+      "status": "success"
+    },
+    {
+      "id": "3",
+      "action": "Prepare final response",
+      "status": "success"
+    }
+  ],
+  "step_count": 3,
+  "successful_steps": 3,
+  "failed_steps": 0,
+  "duration_ms": 0.008
+}

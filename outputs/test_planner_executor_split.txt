@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\planner_executor_agent\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\planner_executor_agent
+configfile: pyproject.toml
+collecting ... collected 5 items
+
+tests/test_planner_executor_split.py::test_planner_executor_success PASSED [ 20%]
+tests/test_planner_executor_split.py::test_executor_failure PASSED       [ 40%]
+tests/test_planner_executor_split.py::test_empty_goal_rejected PASSED    [ 60%]
+tests/test_planner_executor_split.py::test_step_limit PASSED             [ 80%]
+tests/test_planner_executor_split.py::test_trace_contains_measurements PASSED [100%]
+
+============================== 5 passed in 0.03s ==============================
