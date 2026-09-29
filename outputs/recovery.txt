@@ -1,0 +1,44 @@
+{
+  "goal": "Resolve customer request",
+  "retry_result": {
+    "status": "success",
+    "attempts": [
+      {
+        "attempt": 1,
+        "result": "transient_failure"
+      },
+      {
+        "attempt": 2,
+        "result": "success"
+      }
+    ]
+  },
+  "replan_count": 1,
+  "revised_steps": [
+    {
+      "id": "1",
+      "action": "Collect customer information",
+      "status": "success"
+    },
+    {
+      "id": "2",
+      "action": "Verify information",
+      "status": "success"
+    },
+    {
+      "id": "3R",
+      "action": "Use revised information",
+      "status": "pending"
+    },
+    {
+      "id": "4R",
+      "action": "Prepare revised response",
+      "status": "pending"
+    }
+  ],
+  "completed_steps_preserved": [
+    "1",
+    "2"
+  ],
+  "duration_ms": 0.027
+}
