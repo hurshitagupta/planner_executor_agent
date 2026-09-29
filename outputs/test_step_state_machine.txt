@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\planner_executor_agent\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\planner_executor_agent
+configfile: pyproject.toml
+collecting ... collected 6 items
+
+tests/test_step_state_machine.py::test_success_state_flow PASSED         [ 16%]
+tests/test_step_state_machine.py::test_failure_state_flow PASSED         [ 33%]
+tests/test_step_state_machine.py::test_pending_cannot_go_directly_to_success PASSED [ 50%]
+tests/test_step_state_machine.py::test_success_step_cannot_run_again PASSED [ 66%]
+tests/test_step_state_machine.py::test_empty_action_rejected PASSED      [ 83%]
+tests/test_step_state_machine.py::test_run_reports_measurements PASSED   [100%]
+
+============================== 6 passed in 0.05s ==============================

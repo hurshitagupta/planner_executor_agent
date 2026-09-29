@@ -1,0 +1,44 @@
+{
+  "success_step": {
+    "id": "1",
+    "action": "Collect customer details",
+    "status": "success"
+  },
+  "failed_step": {
+    "id": "2",
+    "action": "Process customer request",
+    "status": "failed"
+  },
+  "success_trace": [
+    {
+      "step_id": "1",
+      "status": "pending"
+    },
+    {
+      "step_id": "1",
+      "status": "running"
+    },
+    {
+      "step_id": "1",
+      "status": "success"
+    }
+  ],
+  "failure_trace": [
+    {
+      "step_id": "2",
+      "status": "pending"
+    },
+    {
+      "step_id": "2",
+      "status": "running"
+    },
+    {
+      "step_id": "2",
+      "status": "failed"
+    }
+  ],
+  "total_steps": 2,
+  "successful_steps": 1,
+  "failed_steps": 1,
+  "duration_ms": 0.012
+}
