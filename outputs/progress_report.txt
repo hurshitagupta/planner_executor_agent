@@ -1,0 +1,27 @@
+{
+  "total_steps": 3,
+  "successful_steps": 2,
+  "failed_steps": 0,
+  "pending_steps": 1,
+  "running_steps": 0,
+  "progress_percentage": 66.67,
+  "execution_status": "in_progress",
+  "steps": [
+    {
+      "id": "1",
+      "action": "Collect customer details",
+      "status": "success"
+    },
+    {
+      "id": "2",
+      "action": "Verify customer details",
+      "status": "success"
+    },
+    {
+      "id": "3",
+      "action": "Prepare response",
+      "status": "pending"
+    }
+  ],
+  "duration_ms": 0.332
+}
